@@ -301,8 +301,7 @@ input, select, textarea {
 	}
 
 #bg {
-	height: 2250px auto;
-	width: 6750px auto;
+	background-size: 1920px, 768px, auto;
 }
 
 /* Overlay */
