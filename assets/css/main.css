@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
 
 /*
 	Aerial by HTML5 UP
@@ -22,8 +23,10 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;}
+	font-family: 'Shippori Antique', sans-serif;
+	font: initial;
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
