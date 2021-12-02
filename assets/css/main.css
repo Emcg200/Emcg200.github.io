@@ -227,7 +227,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") left top repeat no-repeat;
+		background: #348cb2 url("images/bg.jpg") center repeat no-repeat;
 		height: 100%;
 		width: 100%;
 		left: 0;
@@ -818,6 +818,7 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 12pt;
+				position: center fixed;
 			}
 
 		/* BG */
@@ -899,7 +900,7 @@ input, select, textarea {
 		/* Basic */
 
 			body {
-				position: relative;
+				position: center fixed;
 				min-width: 320px;
 			}
 
