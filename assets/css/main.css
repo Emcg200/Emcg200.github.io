@@ -228,11 +228,11 @@ input, select, textarea {
 
 		background: #348cb2 url("images/bg.jpg") left top;
 		background-repeat: repeat-x;
-		background-attachment: fixed;
+		background-attachment: inherit;
 		height: 100%;
 		left: 0;
 		opacity: 1;
-		position: absolute;
+		position: fixed;
 		top: 0;
 	}
 
@@ -547,7 +547,7 @@ input, select, textarea {
 		cursor: default;
 		display: inline-block;
 		opacity: 0;
-		position: center;
+		position: relative;
 		text-align: center;
 		top: -1em;
 		vertical-align: middle;
