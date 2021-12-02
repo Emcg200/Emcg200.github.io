@@ -302,6 +302,7 @@ input, select, textarea {
 
 	#bg {
 		background-size: 1920px auto;
+		height: 1920px auto;
 		width: -2250px auto;
 	}
 
