@@ -302,7 +302,7 @@ input, select, textarea {
 /*6750*/
 #bg {
 	background-size: 2250px auto;
-	width: 2250px auto;
+	width: 2250px;
 }
 
 /* Overlay */
