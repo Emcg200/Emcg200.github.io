@@ -228,6 +228,8 @@ input, select, textarea {
 	/* Set your background with this */
 
 		background: #348cb2 url("images/bg.jpg") center repeat no-repeat;
+		height: 100%;
+		width: 100%;
 		left: 0;
 		opacity: 1;
 		position: fixed;
@@ -707,7 +709,6 @@ input, select, textarea {
 				#header nav a span {
 					display: none;
 				}
-/*Body*/
 
 /* Footer */
 
@@ -898,7 +899,6 @@ input, select, textarea {
 		/* Basic */
 
 			body {
-				position: center fixed;
 				min-width: 320px;
 			}
 
@@ -975,7 +975,7 @@ input, select, textarea {
 
 		#bg {
 			background-size: 300px auto;
-			height: contain;
+			height: 100%;
 			width: 900px;
 		}
 
@@ -1074,6 +1074,7 @@ input, select, textarea {
 
 		#bg {
 			background-size: 412.5px auto;
+			height: 100%;
 			width: 1237.5px;
 		}
 
