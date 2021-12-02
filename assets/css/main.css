@@ -299,9 +299,9 @@ input, select, textarea {
 			transform: translate3d(-2250px,0,0);
 		}
 	}
-
+/*6750*/
 #bg {
-	background-size: 6750px auto;
+	background-size: 2250px auto;
 	width: 2250px auto;
 }
 
