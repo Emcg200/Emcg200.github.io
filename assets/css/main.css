@@ -228,11 +228,11 @@ input, select, textarea {
 
 		background: #348cb2 url("images/bg.jpg") left top;
 		background-repeat: repeat-x;
-		background-attachment: inherit;
+		background-attachment: local;
 		height: 100%;
 		left: 0;
 		opacity: 1;
-		position: fixed;
+		position: relative;
 		top: 0;
 	}
 
