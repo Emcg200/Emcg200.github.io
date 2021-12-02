@@ -709,6 +709,7 @@ input, select, textarea {
 				#header nav a span {
 					display: none;
 				}
+/*Body*/
 
 /* Footer */
 
@@ -898,6 +899,7 @@ input, select, textarea {
 		/* Basic */
 
 			body {
+				position: relative;
 				min-width: 320px;
 			}
 
@@ -974,6 +976,7 @@ input, select, textarea {
 
 		#bg {
 			background-size: 300px auto;
+			height: contain;
 			width: 900px;
 		}
 
