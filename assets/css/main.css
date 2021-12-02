@@ -201,6 +201,7 @@ input, select, textarea {
 		-webkit-animation: wrapper 3s forwards;
 		-ms-animation: wrapper 3s forwards;
 		animation: wrapper 3s forwards;
+		overflow:hidden;
 		height: 100%;
 		left: 0;
 		opacity: 0;
@@ -226,8 +227,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") left top;
-		background-repeat: repeat-x;
+		background: #348cb2 url("images/bg.jpg") left top repeat-x;
 		height: 100%;
 		width: 100%;
 		left: 0;
@@ -301,8 +301,8 @@ input, select, textarea {
 	}
 
 	#bg {
-		background-size: 2250px auto;
-		width: 6750px auto;
+		background-size: 1920px auto;
+		width: -2250px auto;
 	}
 
 /* Overlay */
