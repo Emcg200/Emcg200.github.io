@@ -15,9 +15,9 @@
 // Breakpoints.
 
 	@include breakpoints((
-		wide:      ( 1281px,  1680px ),
-		normal:    ( 737px,   1280px ),
-		mobile:    ( 481px,   736px  ),
+		wide:      ( 1280px,  1680px ),
+		normal:    ( 738px,   1920px ),
+		mobile:    ( 480px,   736px  ),
 		mobilep:   ( null,    480px  )
 	));
 
