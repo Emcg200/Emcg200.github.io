@@ -301,7 +301,7 @@ input, select, textarea {
 	}
 
 #bg {
-	height: 2250px max-content;
+	height: 2250px fit-content();
 	width: 6750px auto;
 }
 
