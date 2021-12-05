@@ -1994,18 +1994,17 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background-image: none;
-			background-color: #fff;
+			background-image: "images/bg.jpg";
+			background-color: #82e4ff;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #82e4ff;
+			color: #003d4e;
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #82e4ff;
 		}
 
 		.wrapper.style4 {
@@ -2253,7 +2252,7 @@ input, select, textarea {
 			}
 
 			h1, h2, h3, h4, h5, h6 {
-				font-size: 1.25em;
+				font-size: 16pt;
 				margin: 0 0 0.4em 0;
 			}
 
@@ -2267,7 +2266,7 @@ input, select, textarea {
 			}
 
 				header > p {
-					font-size: 1.25em;
+					font-size: 12pt;
 				}
 
 			footer {
