@@ -3,6 +3,9 @@
 
 [Twitter](https://twitter.com/Edev34)
 
+## Private Repos and Progress:
+![PrivateRepos]()
+
 Credits:
 
 	Demo Images:
