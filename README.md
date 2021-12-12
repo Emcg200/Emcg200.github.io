@@ -4,7 +4,7 @@
 [Twitter](https://twitter.com/Edev34)
 
 ## Private Repos and Progress:
-![PrivateRepos]()
+![PrivateRepos](https://github.com/Emcg200/Emcg200.github.io/blob/main/assets/css/images/Private%20Repos.png)
 
 Credits:
 
