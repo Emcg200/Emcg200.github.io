@@ -100,17 +100,20 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		/*-moz-transition: color .2s ease-in-out;
+		-webkit-transition: color .2s ease-in-out;
+		-ms-transition: color .2s ease-in-out;
+		transition: color .2s ease-in-out;*/
+		background: rgb(242,242,242);
+		background: -moz-radial-gradient(circle, rgba(242,242,242,1) 0%, rgba(0,212,255,1) 51%, rgba(102,0,255,1) 100%);
+		background: -webkit-radial-gradient(circle, rgba(242,242,242,1) 0%, rgba(0,212,255,1) 51%, rgba(102,0,255,1) 100%);
+		background: radial-gradient(circle, rgba(242,242,242,1) 0%, rgba(0,212,255,1) 51%, rgba(102,0,255,1) 100%);
 		font-weight: 300;
 		font-size: 13pt;
 	}
 
 	a {
-		-moz-transition: color .2s ease-in-out;
-		-webkit-transition: color .2s ease-in-out;
-		-ms-transition: color .2s ease-in-out;
-		transition: color .2s ease-in-out;
-		color: #43B3E0;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f2f2",endColorstr="#6600ff",GradientType=1);
 		text-decoration: underline;
 	}
 
