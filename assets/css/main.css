@@ -100,44 +100,6 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		/*-moz-transition: color .2s ease-in-out;
-		-webkit-transition: color .2s ease-in-out;
-		-ms-transition: color .2s ease-in-out;
-		transition: color .2s ease-in-out;*/
-		/*background: rgb(242,242,242);
-		background: -moz-radial-gradient(circle, rgba(242,242,242,1) 0%, rgba(0,212,255,1) 51%, rgba(102,0,255,1) 100%);
-		background: -webkit-radial-gradient(circle, rgba(242,242,242,1) 0%, rgba(0,212,255,1) 51%, rgba(102,0,255,1) 100%);
-		background: radial-gradient(circle, rgba(242,242,242,1) 0%, rgba(0,212,255,1) 51%, rgba(102,0,255,1) 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f2f2",endColorstr="#6600ff",GradientType=1);*/
-
-			background: linear-gradient(3deg, #00e6ff, #8200ff, #0027ff, #5ef7ff);
-			background-size: 800% 800%;
-		
-			-webkit-animation: AnimationName 16s ease infinite;
-			-moz-animation: AnimationName 16s ease infinite;
-			-o-animation: AnimationName 16s ease infinite;
-			animation: AnimationName 16s ease infinite;
-		
-		@-webkit-keyframes AnimationName {
-			0%{background-position:50% 0%}
-			50%{background-position:51% 100%}
-			100%{background-position:50% 0%}
-		}
-		@-moz-keyframes AnimationName {
-			0%{background-position:50% 0%}
-			50%{background-position:51% 100%}
-			100%{background-position:50% 0%}
-		}
-		@-o-keyframes AnimationName {
-			0%{background-position:50% 0%}
-			50%{background-position:51% 100%}
-			100%{background-position:50% 0%}
-		}
-		@keyframes AnimationName {
-			0%{background-position:50% 0%}
-			50%{background-position:51% 100%}
-			100%{background-position:50% 0%}
-		}
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -147,7 +109,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: #00c3ff !important;
 		}
 
 		a img {
@@ -2026,9 +1988,46 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background-image: "images/bg.jpg";
-			background-color: #82e4ff;
-		}
+		background: rgb(242,242,242);
+		background: -moz-linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(0,212,255,1) 51%, rgba(102,0,255,1) 100%);
+		background: -webkit-linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(0,212,255,1) 51%, rgba(102,0,255,1) 100%);
+		background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(0,212,255,1) 51%, rgba(102,0,255,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f2f2",endColorstr="#6600ff",GradientType=1);
+		
+		-webkit-animation: AnimationName 16s ease infinite;
+		-moz-animation: AnimationName 16s ease infinite;
+		-o-animation: AnimationName 16s ease infinite;
+		animation: AnimationName 16s ease infinite;
+
+		background: linear-gradient(0deg, #00e6ff, #9f89ff, #6598f7, #81ffcb);
+		background-size: 800% 800%;
+	
+		-webkit-animation: AnimationName 16s ease infinite;
+		-moz-animation: AnimationName 16s ease infinite;
+		-o-animation: AnimationName 16s ease infinite;
+		animation: AnimationName 16s ease infinite;
+	}
+	
+	@-webkit-keyframes AnimationName {
+		0%{background-position:51% 0%}
+		50%{background-position:50% 100%}
+		100%{background-position:51% 0%}
+	}
+	@-moz-keyframes AnimationName {
+		0%{background-position:51% 0%}
+		50%{background-position:50% 100%}
+		100%{background-position:51% 0%}
+	}
+	@-o-keyframes AnimationName {
+		0%{background-position:51% 0%}
+		50%{background-position:50% 100%}
+		100%{background-position:51% 0%}
+	}
+	@keyframes AnimationName {
+		0%{background-position:51% 0%}
+		50%{background-position:50% 100%}
+		100%{background-position:51% 0%}
+	}
 
 		.wrapper.style2 {
 			background-color: #82e4ff;
