@@ -108,12 +108,12 @@ input, select, textarea {
 		background: -moz-radial-gradient(circle, rgba(242,242,242,1) 0%, rgba(0,212,255,1) 51%, rgba(102,0,255,1) 100%);
 		background: -webkit-radial-gradient(circle, rgba(242,242,242,1) 0%, rgba(0,212,255,1) 51%, rgba(102,0,255,1) 100%);
 		background: radial-gradient(circle, rgba(242,242,242,1) 0%, rgba(0,212,255,1) 51%, rgba(102,0,255,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f2f2",endColorstr="#6600ff",GradientType=1);
 		font-weight: 300;
 		font-size: 13pt;
 	}
 
 	a {
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f2f2",endColorstr="#6600ff",GradientType=1);
 		text-decoration: underline;
 	}
 
