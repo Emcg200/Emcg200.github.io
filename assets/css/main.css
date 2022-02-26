@@ -144,7 +144,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #1d1d1d;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -1838,7 +1838,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-github {
-					background-color: #FAFAFA;
+					background-color: #ffffff;
 				}
 
 				ul.social li a.fa-rss {
@@ -1999,7 +1999,7 @@ input, select, textarea {
 		-o-animation: AnimationName 16s ease infinite;
 		animation: AnimationName 16s ease infinite;
 
-		background: linear-gradient(0deg, #00e6ff, #9f89ff, #6598f7, #81ffcb);
+		background: linear-gradient(21deg, #a100afa6, #a50081c2, #c05600c9, #c40000c2);
 		background-size: 800% 800%;
 	
 		-webkit-animation: AnimationName 16s ease infinite;
@@ -2147,7 +2147,7 @@ input, select, textarea {
 		}
 
 			#top .image img {
-				border-radius: 100%;
+				border-radius: 50;
 			}
 
 		#top h1 {
